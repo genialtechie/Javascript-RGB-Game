@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #000;
+    height: 30%;
+    width: 100%;
+    color: #fff;
+}
+
+#title {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#rgb-value {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 6px 0;
+}
+
+#controls {
+    width: 100%;
+    padding: 6px 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around; 
+}
+
+#message{
+    padding: 5px;
+    border-radius: 5%;
+}
+
+#redo-btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+#restart-btn {
+    padding: 5px;
+    border-radius: 5%;
+}
+
+#restart-btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+#difficulty > span {
+    padding: 5px;
+}
+
+#difficulty > span:hover{
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #fff;
+    color: #000;
+}
+
+#body {
+    width: 100%;
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.color-ctnr {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    height: 50%;
+    width: 90%;
+    max-width: 40em; 
+    margin: 15px auto;
+}
+
+.colors {
+    height: 10em;
+    width: 10em;
+    background-color: black;
+    border-radius: 10%;
+    margin: 5px;
+}
